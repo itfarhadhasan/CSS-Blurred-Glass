@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+section .d{
+
+    position: relative;
+    max-width: 600px;
+    padding: 152px 47px;
+    box-sizing: 0  5px 15px #2c2ffa62;
+    overflow: hidden;
+    color: #000;
+    border-radius:30px; 
+    border-style: double;
+
+
+}
+
+section .d::before{
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background-color: #226;
+    background: url("bg2.jpg");
+    background-attachment: fixed;
+    align-items: center;
+    
+    
+
+}
+section .d h2 {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    z-index: 2;
+    text-align: center;
+}
+section .d p{
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+    text-align: center;
+}
